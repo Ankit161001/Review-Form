@@ -16,9 +16,9 @@
 }
 
 .head {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 16px;
     font-weight: 600;
     color: #615151;
 }
@@ -45,7 +45,7 @@ body {
 }
 
 .light-color {
-    color: #7d6868;
+    color: #7d6868; 
 }
 
 .btn {
@@ -57,11 +57,14 @@ body {
     width: 450px;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
 }
 
 .txt-ar {
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    resize: none;
 }
 
 .selector {
@@ -69,9 +72,14 @@ body {
     width: 180px;
     height: 30px;
     border-radius: 5px;
+    margin-top: 10px;
 }
 
 * {
     margin: 0;
     padding: 0;
+}
+
+.radio {
+    margin-top: 10px;
 }
